@@ -1,1 +1,9 @@
+preco_original = float(input("Digite o valor do produto: R$ "))
 
+imposto = preco_original * 0.08
+
+preco_final = preco_original + imposto
+
+print(f"Preço original: R$ {preco_original:.2f}")
+print(f"Imposto (8%): R$ {imposto:.2f}")
+print(f"Preço final com imposto: R$ {preco_final:.2f}")
